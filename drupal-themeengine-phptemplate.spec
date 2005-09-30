@@ -3,8 +3,7 @@ Summary:	Drupal PHPTemplate theme engine
 Summary(pl):	Silnik motywów Drupala PHPTemplate
 Name:		drupal-themeengine-%{engine}
 Version:	4.6.0
-Release:	0.2
-Epoch:		0
+Release:	0.3
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{engine}-%{version}.tar.gz
@@ -14,7 +13,8 @@ Requires:	drupal >= 4.6.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_enginedir			%{_datadir}/drupal/themes/engines
+%define		_drupaldir	%{_datadir}/drupal
+%define		_enginedir	%{_drupaldir}/themes/engines
 
 %description
 A theme engine that allows you to use template files written in pure
