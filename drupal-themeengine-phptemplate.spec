@@ -1,6 +1,6 @@
 %define		engine phptemplate
 Summary:	Drupal PHPTemplate theme engine
-Summary(pl.UTF-8):   Silnik motywów Drupala PHPTemplate
+Summary(pl.UTF-8):	Silnik motywów Drupala PHPTemplate
 Name:		drupal-themeengine-%{engine}
 Version:	4.6.0
 Release:	0.3
