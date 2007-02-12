@@ -1,6 +1,6 @@
 %define		engine phptemplate
 Summary:	Drupal PHPTemplate theme engine
-Summary(pl):	Silnik motywów Drupala PHPTemplate
+Summary(pl.UTF-8):   Silnik motywÃ³w Drupala PHPTemplate
 Name:		drupal-themeengine-%{engine}
 Version:	4.6.0
 Release:	0.3
@@ -30,20 +30,20 @@ Spreadfirefox.com use PHPTemplate based themes.
 
 The 'default' template for this engine is box_grey by Adrian Simmons.
 
-%description -l pl
-Ten silnik motywów umo¿liwia u¿ywanie plików szablonów napisanych w
-czystym PHP. Te pliki szablonów nie wymagaj± przetwarzania przez
-silnik motywów i jako takie wykonuj± siê du¿o szybciej ni¿ wiêkszo¶æ
-innych silników motywów. Inn± du¿± zalet± u¿ywania PHP jako jêzyka
-szablonów jest elastyczno¶æ, jako ¿e zaawansowany u¿ytkownik mo¿e
-dostaæ siê do ka¿dej informacji/funkcjonalno¶ci dostêpnej w API
-Drupala i nie jest ograniczony do tego, na co pozwala mu silnik/jêzyk
-szablonów.
+%description -l pl.UTF-8
+Ten silnik motywÃ³w umoÅ¼liwia uÅ¼ywanie plikÃ³w szablonÃ³w napisanych w
+czystym PHP. Te pliki szablonÃ³w nie wymagajÄ… przetwarzania przez
+silnik motywÃ³w i jako takie wykonujÄ… siÄ™ duÅ¼o szybciej niÅ¼ wiÄ™kszoÅ›Ä‡
+innych silnikÃ³w motywÃ³w. InnÄ… duÅ¼Ä… zaletÄ… uÅ¼ywania PHP jako jÄ™zyka
+szablonÃ³w jest elastycznoÅ›Ä‡, jako Å¼e zaawansowany uÅ¼ytkownik moÅ¼e
+dostaÄ‡ siÄ™ do kaÅ¼dej informacji/funkcjonalnoÅ›ci dostÄ™pnej w API
+Drupala i nie jest ograniczony do tego, na co pozwala mu silnik/jÄ™zyk
+szablonÃ³w.
 
-Kilka najwiêkszych serwisów opartych na Drupalu, takich jak Drupal.org
-czy Spreadfirefox.com u¿ywa motywów opartych na PHPTemplate.
+Kilka najwiÄ™kszych serwisÃ³w opartych na Drupalu, takich jak Drupal.org
+czy Spreadfirefox.com uÅ¼ywa motywÃ³w opartych na PHPTemplate.
 
-"Domy¶lnym" szablonem dla tego silnika jest box_grey Adriana Simmonsa.
+"DomyÅ›lnym" szablonem dla tego silnika jest box_grey Adriana Simmonsa.
 
 %prep
 %setup -q -n %{engine}
